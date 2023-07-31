@@ -1,0 +1,42 @@
+.first_section{
+
+}
+
+.first_section_header{
+  text-align: center;
+  width: 90%;
+  margin-inline: auto;
+  padding-top: 70px ;
+  h3{
+    font-weight: 550;
+    font-size: 1.5rem;
+    color: #006e00;
+  }
+  h2{
+    font-size: 3rem;
+  }
+}
+
+.first_section_grid_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+margin-left: 70px;
+padding-top: 50px;
+column-gap: 50px;
+  div{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 80%;
+
+    img{
+      width: 30px;
+    }
+    article{
+      line-height: 35px;
+      h3{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
